@@ -58,3 +58,33 @@ Use these commands to validate your setup and troubleshoot issues.
 show mpls forwarding-table
 show mpls ldp neighbor
 show ip ospf neighbor
+
+````
+### BGP EVPN
+
+```bash
+show bgp l2vpn evpn summary
+show bgp l2vpn evpn
+show bgp l2vpn evpn route-type mac-ip
+````
+
+### EVPN & Bridge Domain
+
+```bash
+show l2vpn evpn mac
+show l2vpn evpn ethernet-segment
+show bridge-domain
+```
+
+### End-to-End Connectivity
+
+```bash
+ping <remote-CE-IP>
+traceroute <remote-CE-IP>
+show ip route
+show ip eigrp neighbors
+show ip ospf neighbors
+```
+
+```
+```
