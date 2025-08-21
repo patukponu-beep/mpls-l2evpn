@@ -45,7 +45,7 @@ Each customer (CBT, ACME) has its own bridge domain and EVPN instance.
     * Map the bridge domains to their respective EVPN instances.
 
 4.  **Customer Edge Integration**
-    * Configure subinterfaces or physical ports for CE connections.
+    * Configure subinterfaces or physical ports with service instance for CE connections.
     * Run the customer's preferred IGPs (OSPF, EIGRP) if desired.
 
 ### Verification Commands
