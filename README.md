@@ -9,7 +9,7 @@ The lab consists of:
 * **Provider Core:** (P1, P2) running MPLS and IGP
 * **Provider Edge:** (PE1, PE2, PE3) running BGP EVPN
 * **Customer Edge:** (CE1–CE3, ACME1–ACME3) connected through PEs via EVPN instances
-* **Intermediate Switches:** Used to simulate shared access
+* **Intermediate Switches:** Used to simulate shared access - you might have to manually create vlans 10 and 20 on these 3 switches.
 
 Each customer (CBT, ACME) has its own bridge domain and EVPN instance.
 
