@@ -2,6 +2,9 @@
 
 This lab demonstrates MPLS EVPN (Ethernet VPN) as a scalable replacement for traditional Layer 2 VPNs like VPWS and VPLS. EVPN allows multiple customers to connect across a provider MPLS backbone while maintaining separation and enabling multipoint connectivity.
 
+<img width="3161" height="1559" alt="image" src="https://github.com/user-attachments/assets/79472cda-f58f-436b-9e85-0849cc313b2c" />
+
+
 ### Topology
 
 The lab consists of:
